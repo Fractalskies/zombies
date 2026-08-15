@@ -1,0 +1,2 @@
+bg_sprite,temp_bg.png
+player_sprite,player.png
