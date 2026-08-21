@@ -1,2 +1,3 @@
-bg_sprite,temp_bg.png
+bg_sprite,bg.png
 player_sprite,player.png
+txt_b_sprite,text_box.png
