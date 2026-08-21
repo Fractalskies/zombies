@@ -15,8 +15,13 @@ pg.display.set_caption("Pure happiness and joy")
 
 while running:
     for event in pg.event.get():
+        #checks for the quit event
         if event.type == pg.QUIT:
             running = False
+        #checks for a click event
+        if event.type == pg.MOUSEBUTTONDOWN:
+            if event.button == 1:
+                v.t_index += 1
 
     #Filling the screen with a colour after every frame
     v.screen.fill("dark grey")
